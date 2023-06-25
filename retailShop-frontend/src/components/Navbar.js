@@ -1,6 +1,6 @@
 
-import "./Banner.css"
-const Banner =()=>{
+import "./Navbar.css"
+const Navbar =()=>{
     return(
         <div className="header">
             <div className="navbar">
@@ -23,4 +23,4 @@ const Banner =()=>{
     );
 }
 
-export default Banner;
+export default Navbar;
