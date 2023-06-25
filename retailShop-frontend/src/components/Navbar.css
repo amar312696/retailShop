@@ -47,3 +47,15 @@ h1.retailShop {
     color: #0000FF;
     font-weight: bolder;
 }
+button.login.loginbutton {
+    border-radius: 10px;
+    border: solid #00F 1px;
+    color: white;
+    background: #00f;
+}
+
+button.signUp.signbutton {
+    border-radius: 10px;
+    border: solid 1px white;
+    background: white;
+}

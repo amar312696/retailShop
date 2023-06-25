@@ -12,8 +12,8 @@ const Navbar =()=>{
                         <button className="home navbutton">Home</button>
                     </div>
                     <div className="extreme_sidebar">
-                        <button className="login navbutton">Login</button>
-                        <button className="signUp navbutton">Sign Up</button>
+                        <button className="login loginbutton">Login</button>
+                        <button className="signUp signbutton">Sign Up</button>
                     </div>
                 </div>
             </div>
