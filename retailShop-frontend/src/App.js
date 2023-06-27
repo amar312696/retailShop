@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
       <Navbar />
       <Sideintro />
-      {/* <Background/> */}
+      <Background/>
        
       </header>
     </div>
