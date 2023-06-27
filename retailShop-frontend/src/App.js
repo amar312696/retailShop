@@ -1,12 +1,16 @@
 
 import './App.css';
-import Banner from './components/Banner';
+import Navbar from './components/Navbar';
+import Sideintro from './components/Sideintro';
+import Background from './components/Background';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Banner />
+      <Navbar />
+      <Sideintro />
+      <Background/>
        
       </header>
     </div>
