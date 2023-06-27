@@ -2,6 +2,7 @@ import "./Background.css"
 
 const Background =()=>{
     return(
+        <>
         <div className="backdisplay">
             <div className="toptriangle">
                 <svg width="823" height="301" viewBox="0 0 823 301" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,37 +10,42 @@ const Background =()=>{
                 <path d="M396.343 114.953L83.7552 -249.811C72.915 -262.461 81.9031 -282 98.562 -282L723.738 -282C740.397 -282 749.385 -262.461 738.545 -249.811L425.957 114.953C418.174 124.035 404.126 124.035 396.343 114.953Z" fill="#FF8C00" stroke="#FF8C00"/>
                 </svg>
             </div>
-            <div className="lefttriangle">
-                <svg width="397" height="392" viewBox="0 0 397 392" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M377.581 376.807C387.381 384.81 387.381 399.787 377.581 407.789L13.3525 705.223C0.290635 715.89 -19.2977 706.596 -19.2977 689.732L-19.2977 94.8639C-19.2977 78.0001 0.290617 68.7063 13.3525 79.3728L377.581 376.807Z" fill="#FFF3E7"/>
-                <g filter="url(#filter0_d_95_67)">
-                <path d="M81.3214 305.768C91.1206 313.771 91.1206 328.747 81.3214 336.749L3.56539 400.249C-9.49638 410.916 -29.0852 401.623 -29.0852 384.759V257.759C-29.0852 240.895 -9.49637 231.601 3.5654 242.268L81.3214 305.768Z" fill="#FF8C00"/>
-                <path d="M81.0051 336.362L3.24912 399.862C-9.4861 410.263 -28.5852 401.201 -28.5852 384.759V257.759C-28.5852 241.316 -9.48608 232.255 3.24914 242.655L81.0051 306.155C90.5593 313.958 90.5593 328.56 81.0051 336.362Z" stroke="#FF8C00"/>
-                </g>
-                <defs>
-                <filter id="filter0_d_95_67" x="-33.0852" y="237.721" width="125.756" height="175.076" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                <feOffset dy="4"/>
-                <feGaussianBlur stdDeviation="2"/>
-                <feComposite in2="hardAlpha" operator="out"/>
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_95_67"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_95_67" result="shape"/>
-                </filter>
-                </defs>
-                </svg>
-
-            </div>
-            <div className="righttriangle">
-                <svg width="950" height="700" viewBox="0 0 950 844" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M742.727 52.2054C762.738 25.9398 802.262 25.9398 822.273 52.2054L1398.99 809.199C1424.06 842.112 1400.59 889.5 1359.22 889.5H205.785C164.409 889.5 140.938 842.112 166.012 809.199L742.727 52.2054Z" fill="#FFF3E7"/>
-                <path d="M821.394 696.998C831.326 682.538 852.674 682.538 862.607 696.998L996.968 892.595C1008.36 909.183 996.487 931.75 976.362 931.75H707.638C687.513 931.75 675.637 909.183 687.032 892.595L821.394 696.998Z" fill="#FF8C00"/>
-                </svg>
-
-            </div>
             
         </div>
+        <div className="bottomTriangles">
+
+        <div className="lefttriangle">
+            <svg width="397" height="392" viewBox="0 0 397 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M377.581 376.807C387.381 384.81 387.381 399.787 377.581 407.789L13.3525 705.223C0.290635 715.89 -19.2977 706.596 -19.2977 689.732L-19.2977 94.8639C-19.2977 78.0001 0.290617 68.7063 13.3525 79.3728L377.581 376.807Z" fill="#FFF3E7"/>
+            <g filter="url(#filter0_d_95_67)">
+            <path d="M81.3214 305.768C91.1206 313.771 91.1206 328.747 81.3214 336.749L3.56539 400.249C-9.49638 410.916 -29.0852 401.623 -29.0852 384.759V257.759C-29.0852 240.895 -9.49637 231.601 3.5654 242.268L81.3214 305.768Z" fill="#FF8C00"/>
+            <path d="M81.0051 336.362L3.24912 399.862C-9.4861 410.263 -28.5852 401.201 -28.5852 384.759V257.759C-28.5852 241.316 -9.48608 232.255 3.24914 242.655L81.0051 306.155C90.5593 313.958 90.5593 328.56 81.0051 336.362Z" stroke="#FF8C00"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_95_67" x="-33.0852" y="237.721" width="125.756" height="175.076" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_95_67"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_95_67" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+
+        </div>
+        <div className="righttriangle">
+            <svg width="950" height="700" viewBox="0 0 950 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M742.727 52.2054C762.738 25.9398 802.262 25.9398 822.273 52.2054L1398.99 809.199C1424.06 842.112 1400.59 889.5 1359.22 889.5H205.785C164.409 889.5 140.938 842.112 166.012 809.199L742.727 52.2054Z" fill="#FFF3E7"/>
+            <path d="M821.394 696.998C831.326 682.538 852.674 682.538 862.607 696.998L996.968 892.595C1008.36 909.183 996.487 931.75 976.362 931.75H707.638C687.513 931.75 675.637 909.183 687.032 892.595L821.394 696.998Z" fill="#FF8C00"/>
+            </svg>
+
+        </div>
+        
+    </div>
+    </>
         // <div className="triangles">
         //     <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
         //     <g clip-path="url(#clip0_95_66)">
