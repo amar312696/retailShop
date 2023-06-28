@@ -1,17 +1,15 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
-import Sideintro from './components/Sideintro';
-import Background from './components/Background';
+import Homepage from './components/Homepage';
+import Prelogin from './components/Prelogin';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Navbar />
-      <Sideintro />
-      <Background/>
-       
+      
+       {/* <Homepage/> */}
+       <Prelogin/>
       </header>
     </div>
   );
