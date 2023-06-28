@@ -1,6 +1,11 @@
 import "./Mainpre.css"
-
+import { useNavigate } from "react-router-dom";
 const Mainpre =()=>{
+
+    const navigate=useNavigate();
+    const loginClick=()=>{
+        navigate("/login");
+    }
 
     return(
         
@@ -14,7 +19,7 @@ const Mainpre =()=>{
                     Sign Up
                 </div>
                 <div className="signUpR">
-                    <p>Alerady have an account? <span className="loginR">Login</span> here</p>
+                    <p>Alerady have an account? <span className="loginR" onClick={loginClick}>Login</span> here</p>
                 </div>
            </div>
            <div className="rightsec">
@@ -27,7 +32,7 @@ const Mainpre =()=>{
                 </div>
                 <div className="signUpC">
                     <p>
-                    Already have an account? <span className="loginC">Login</span> here
+                    Already have an account? <span className="loginC" onClick={loginClick}>Login</span> here
                     </p>
                 </div>
            </div>
