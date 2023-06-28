@@ -3,10 +3,11 @@
     z-index: 3;
     display: flex;
     height: 100%;
+    width: 100%;
     
    overflow: hidden;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
 }
 .leftsec,.rightsec{
     flex-basis: 50%;
@@ -14,22 +15,14 @@
 }
 .leftsec {
     text-align: center;
-    width: 247px;
     height: 500px;
-    margin-left: 180px;
-    margin-right: 69px;
-    margin-top: 150px;
     color: #FF8C00;
     
 }
 
 .rightsec {
     text-align: center;
-    width: 247px;
     height: 500px;
-    margin-left: 400px;
-    margin-right: 69px;
-    margin-top: 150px;
     color: white;
     
 }
@@ -43,4 +36,9 @@
     color: black;
     text-decoration: underline;
     font-weight: bold;
+}
+
+
+.retailP, .customerP {
+    padding: 8% 35% 2% 35%
 }
