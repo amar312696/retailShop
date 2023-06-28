@@ -1,6 +1,6 @@
 .wholesec{
     position: absolute;
-    z-index: 3;
+    /* z-index: 3; */
     display: flex;
     height: 100%;
     width: 100%;

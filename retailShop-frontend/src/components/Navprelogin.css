@@ -1,34 +1,26 @@
-.headerPre{
-    z-index: -4;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    height: 100vh;
-    background-image: linear-gradient(
-        to right,
-        #FFF3E7 0%,
-        #FFF3E7 50%,
-        #FF8C00 50%,
-        #FF8C00 100%
-    );
-}
+
 .navbarPre {
-    
-    display: flex;
+   
+    position: absolute;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     
-    
+}
+
+.sidebarPre {
+    display: flex;
+    width: 250px;
+    padding-right: 5em;
 }
 
 .midbarPre {
     display: flex;
     width: 250px;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 5em;
+    justify-content: space-around;
 }
 
-.Pre {
+.Pre{
     color: black;
 }

@@ -2,6 +2,7 @@
 import Navprelogin from "./Navprelogin"
 import Mainpre from "./Mainpre"
 import Pretriangle from "./Pretriangle";
+import BackgroundPre from "./Backgroundpre";
 
 const Prelogin= ()=>{
     return(
@@ -9,6 +10,7 @@ const Prelogin= ()=>{
             <Mainpre/>
             <Navprelogin/>
             <Pretriangle/>
+            <BackgroundPre/>
         </div>
         
         
