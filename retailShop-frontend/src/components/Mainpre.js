@@ -14,22 +14,22 @@ const Mainpre =()=>{
                     Sign Up
                 </div>
                 <div className="signUpR">
-                    <p>Alerady have an account?<span className="loginR">Login</span> here</p>
+                    <p>Alerady have an account? <span className="loginR">Login</span> here</p>
                 </div>
            </div>
            <div className="rightsec">
-            <h1>For Customers</h1>
-            <p className="customerP">
-            Join millions of shoppers, explore products, enjoy exclusive offers, and elevate your online retail experience.
-            </p>
-            <div className="signUp">
-                    Sign Up
-            </div>
-            <div className="signUpC">
-                <p>
-                Already have an account?<span className="loginC">Login</span> here
+                <h1>For Customers</h1>
+                <p className="customerP">
+                Join millions of shoppers, explore products, enjoy exclusive offers, and elevate your online retail experience.
                 </p>
-            </div>
+                <div className="signUp">
+                        Sign Up
+                </div>
+                <div className="signUpC">
+                    <p>
+                    Already have an account? <span className="loginC">Login</span> here
+                    </p>
+                </div>
            </div>
         </div>
     );
