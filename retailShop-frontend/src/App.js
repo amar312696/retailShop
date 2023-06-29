@@ -2,6 +2,7 @@
 import './App.css';
 import Homepage from './components/Homepage';
 import Prelogin from './components/Prelogin';
+import Loginpage from './components/Loginpage';
 import {Route,Routes} from "react-router";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/prelogin" element={<Prelogin/>}/>
+        <Route path="/login" element={<Loginpage/>}/>
         
       </Routes>
        

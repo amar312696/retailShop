@@ -9,6 +9,9 @@ const Navbar =()=>{
     const homeClick=()=>{
         navigate("/");
     }
+    const loginClick=()=>{
+        navigate("/login");
+    }
     return(
 
         <div className="header">
@@ -21,7 +24,7 @@ const Navbar =()=>{
                         <button className="home navbutton" onClick={homeClick}>Home</button>
                     </div>
                     <div className="extreme_sidebar">
-                        <button className="login loginbutton">Login</button>
+                        <button className="login loginbutton" onClick={loginClick}>Login</button>
                         <button className="signUp signbutton" onClick={signUpClick}>Sign Up</button>
                     </div>
                 </div>
