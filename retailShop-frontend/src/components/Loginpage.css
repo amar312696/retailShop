@@ -18,7 +18,7 @@
       #FFF3E7 50%,
       #FFF3E7 100%
     );
-    border: none;
+    border: solid 2px #FF8C00;
     border-radius: 2em;
     position: absolute;
     top: 50%;
