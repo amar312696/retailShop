@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Open+Sans&display=swap');
+.navbar {
+    z-index:4;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1.retailShop {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder ;
+   
+    padding: 5px;
+    margin: 10px;
+}
+.sidebar {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.midbar {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.extreme_sidebar {
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+.navbutton{
+    border: 0px;
+    background: none;
+    font-family: 'Inter', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   color: #7EB1EC
+}
+.login{
+    color: #0000FF;
+    font-weight: bolder;
+}
+.signUp{
+    color: #0000FF;
+    font-weight: bolder;
+}
+button.login.loginbutton {
+    border-radius: 10px;
+    border: solid #00F 1px;
+    color: white;
+    background: #00f;
+}
+
+button.signUp.signbutton {
+    border-radius: 10px;
+    border: solid 1px white;
+    background: white;
+}

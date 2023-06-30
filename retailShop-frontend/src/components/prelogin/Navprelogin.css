@@ -1,0 +1,26 @@
+
+.navbarPre {
+   
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.sidebarPre {
+    display: flex;
+    width: 250px;
+    padding-right: 5em;
+}
+
+.midbarPre {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+
+.Pre{
+    color: black;
+}
