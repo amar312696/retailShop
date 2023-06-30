@@ -1,8 +1,8 @@
 
 import './App.css';
-import Homepage from './components/Homepage';
-import Prelogin from './components/Prelogin';
-import Loginpage from './components/Loginpage';
+import Homepage from './components/homepage/Homepage';
+import Prelogin from './components/prelogin/Prelogin';
+import Loginpage from './components/login/Loginpage';
 import {Route,Routes} from "react-router";
 
 function App() {
