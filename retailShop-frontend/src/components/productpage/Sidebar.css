@@ -1,0 +1,15 @@
+.sidebarP {
+    border: solid 1px black;
+    height: 629px;
+    width: 250px;
+    border-radius: 28px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15px;
+    background: #FF8C00;
+}
+.mp{
+    color: blue;
+    font-weight: bolder;
+    
+}
