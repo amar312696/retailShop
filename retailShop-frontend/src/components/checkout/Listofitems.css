@@ -1,0 +1,37 @@
+h1.loi {
+    margin: 0;
+    padding-left: 3.3em;
+}
+
+hr.horizontal-line {
+    width: 90%;
+    height: 2px;
+    background: black;
+    border: none;
+}
+.itemsLi {
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #D9D9D9;
+
+}
+
+
+.itemsincrease {
+    height: 34px;
+    width: 175px;
+    border: solid 1px black;
+    border-radius: 6px
+}
+
+.itemslisting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 300px 10px 127px
+}
+ul{
+    list-style-type: none;
+}
