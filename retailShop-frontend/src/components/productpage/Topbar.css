@@ -7,7 +7,7 @@
     
 }
 .topbar {
-    position: absolute;
+    /* position: absolute; */
     display: inline-flex;
     align-items: center;
     justify-content: space-between;

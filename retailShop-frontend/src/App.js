@@ -4,6 +4,7 @@ import Homepage from './components/homepage/Homepage';
 import Prelogin from './components/prelogin/Prelogin';
 import Loginpage from './components/login/Loginpage';
 import Productpage from './components/productpage/Productpage';
+import Checkout from './components/checkout/Checkout';
 import {Route,Routes} from "react-router";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/prelogin" element={<Prelogin/>}/>
         <Route path="/login" element={<Loginpage/>}/>
         <Route path="/products" element={<Productpage/>}/>
+        <Route path="/checkout" element={<Checkout/>}/>
         
       </Routes>
        

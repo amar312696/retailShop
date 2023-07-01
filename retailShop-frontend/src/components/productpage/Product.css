@@ -1,0 +1,46 @@
+.allaboutproduct {
+    display: flex;
+    flex-direction: column;
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.smalelinepc {
+    display: flex;
+    justify-content: space-between;
+}
+.productimage {
+    border: solid 2px black;
+    border-radius: 20px 20px 0 0;
+    height: 100px;
+    width: 100%;
+}
+
+.productname {
+    text-align: center;
+    margin-bottom: 11px;
+     
+}
+.productprice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.rupeesign {
+    padding-top: 7px;
+}
+
+span.carts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 7px;
+}
+img.imgproduct {
+    height: 100%;
+    width: 70%;
+    background-size: contain;
+}
