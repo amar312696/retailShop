@@ -1,0 +1,28 @@
+.listitems {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.productimageLoi {
+    border: solid 1px black;
+    width: 40%;
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+    padding-left: 8px;
+}
+.productinfoLoi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 6px
+}
+img.imgproductLoi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: 100%;
+    background-size: contain;
+    margin-top: 2px;
+}

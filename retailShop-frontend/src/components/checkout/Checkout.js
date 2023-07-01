@@ -1,9 +1,15 @@
 import "./Checkout.css";
 import Topbar from "../productpage/Topbar";
+import Totalamount from "./Totalamount";
+import Listofitems from "./Listofitems";
 const Checkout=()=>{
     return (
         <>
-        <Topbar/>
+        <div className="fullcheckout">
+            <Topbar/>
+            <Totalamount/>
+            <Listofitems/>
+        </div>
         </>
     );
 }
