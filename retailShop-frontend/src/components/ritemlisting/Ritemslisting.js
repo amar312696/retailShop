@@ -8,15 +8,23 @@ const Ritemlisting=()=>{
             <h1 className="retailShop"><span style={{ color: '#0000FF'  }}>r</span><span style={{ color: '#7EB1EC' }}>etail</span><span style={{ color: '#0000FF' }}>S</span><span style={{ color: '#7EB1EC' }}>hop</span>.</h1>
             <div className="headingR">Enter items that are available at your store</div>
             <div className="squaresec">
-                <ul className="ssquare">
-                    <li>
-                        <Iteminfoform/>
-                    </li>
-                    <li>
-                        <Iteminfoform/>
-                    </li>
-                </ul>
+                <div className="ssquare">
+                    <ul>
+                        <li>
+                            <Iteminfoform/>
+                        </li>
+                        <li>
+                            <Iteminfoform/>
+                        </li>
+                    </ul>
+                    <div className="generateqr">
+                        <button className="gqr">Generate QR code</button>
+                    </div>
+                </div>
+                
             </div>
+            
+            
         </div>
 
         </div>

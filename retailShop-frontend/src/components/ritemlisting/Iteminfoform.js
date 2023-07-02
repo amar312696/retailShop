@@ -4,7 +4,7 @@ const Iteminfoform=()=>{
     return(
         <div className="iteminfoL">
             <div className="isubformL">
-                <form className="itemformL">
+                <div className="itemformL">
                     <label>Name of item:
                         <input type="text" />
                     </label><br/>
@@ -17,7 +17,7 @@ const Iteminfoform=()=>{
                         </button>
                     </label>
                     
-                </form>
+                </div>
             </div>
             <div className="additembutton">
                 <button className="ami">
@@ -27,6 +27,7 @@ const Iteminfoform=()=>{
             <div className="removeitembutton">
                 {/* <button className="rmi"></button> */}
             </div>
+
             
         </div>
     );
