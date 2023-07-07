@@ -97,3 +97,9 @@ span.signUpOnLogin {
 h1.retailShop.insideleft{
     margin-top: 50%;
 }
+
+.error {
+  font-size: small;
+  color: red;
+  font-style: italic;
+}
