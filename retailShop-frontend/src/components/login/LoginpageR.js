@@ -1,10 +1,10 @@
-import "./Loginpage.css"
+import "./LoginpageR.css"
 import { useNavigate } from "react-router-dom";
 
-const Loginpage=()=>{
+const LoginpageR=()=>{
     const navigate=useNavigate();
     const signUpClick=()=>{
-        navigate("/signup");
+        navigate("/signupr");
     }
     const homeClick=()=>{
         navigate("/");
@@ -21,7 +21,11 @@ const Loginpage=()=>{
                         <h1 className="retailShop insideleft"><span style={{ color: '#0000FF'  }}>r</span><span style={{ color: 'white' }}>etail</span><span style={{ color: '#0000FF' }}>S</span><span style={{ color: 'white' }}>hop</span>.</h1>
                     </div>
                     <div className="rightside">
-                        <div className="loginL">Login</div>
+                    <div className="Lr">
+                            <div className="loginL marginadjust">Login</div>
+                            <div className="asRetailer ">(as retailer)</div>
+                        </div>
+                    
                         <form className="loginform">
                             <label>Email Address:<br/>
                                 <input type="email" />
@@ -47,4 +51,4 @@ const Loginpage=()=>{
         
     );
 }
-export default Loginpage
+export default LoginpageR

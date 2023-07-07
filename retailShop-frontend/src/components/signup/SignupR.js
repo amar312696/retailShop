@@ -1,28 +1,33 @@
-import "./Loginpage.css"
+import "./SignupR.css"
+
 import { useNavigate } from "react-router-dom";
 
-const Loginpage=()=>{
+const SignuppageR=()=>{
     const navigate=useNavigate();
-    const signUpClick=()=>{
-        navigate("/signup");
+    const loginClickR=()=>{
+        navigate("/loginr");
     }
     const homeClick=()=>{
         navigate("/");
     }
     return(
-        <div className="logpage">
-            <div className="loginback">
+        <div className="signpage">
+            <div className="signupback">
                 <h1 className="retailShop" onClick={homeClick}><span style={{ color: '#0000FF'  }}>r</span><span style={{ color: '#7EB1EC' }}>etail</span><span style={{ color: '#0000FF' }}>S</span><span style={{ color: '#7EB1EC' }}>hop</span>.</h1>
             </div>
 
-            <div className="logincard">
+            <div className="signupcard">
                 <div className="box">
                     <div className="leftside">
                         <h1 className="retailShop insideleft"><span style={{ color: '#0000FF'  }}>r</span><span style={{ color: 'white' }}>etail</span><span style={{ color: '#0000FF' }}>S</span><span style={{ color: 'white' }}>hop</span>.</h1>
                     </div>
                     <div className="rightside">
-                        <div className="loginL">Login</div>
-                        <form className="loginform">
+                        <div className="sur">
+                            <div className="signupL marginadjust">Sign Up</div>
+                            <div className="asRetailer">(as retailer)</div>
+                        </div>
+                        
+                        <form className="signupform">
                             <label>Email Address:<br/>
                                 <input type="email" />
                             </label><br/>
@@ -30,13 +35,17 @@ const Loginpage=()=>{
                                 <input type="Password" />
                             </label>
                             <br/>
+                            <label>re-enter Password:<br/>
+                                <input type="Password" />
+                            </label>
+                            <br/>
                             <button type="submit" className="loginsubmission">
-                                Login
+                                Sign up
                             </button>
                             
                         </form>
                         <div className="furtherinfo">
-                            <p>Not a member yet? Become a member <span className="signUpOnLogin" onClick={signUpClick}>Sign Up</span></p>
+                            <p>Already an existing member? Please <span className="signUpOnLogin" onClick={loginClickR}>Login</span></p>
                         </div>
                     </div>
                 </div>
@@ -47,4 +56,4 @@ const Loginpage=()=>{
         
     );
 }
-export default Loginpage
+export default SignuppageR
