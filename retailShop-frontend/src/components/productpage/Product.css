@@ -44,3 +44,10 @@ img.imgproduct {
     width: 70%;
     background-size: contain;
 }
+.cartsvg {
+    display: flex;
+    padding: 7px;
+}
+.noOfproducts {
+    margin-right: 4px;
+}
