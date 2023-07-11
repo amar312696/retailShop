@@ -25,7 +25,7 @@ const Loginpage=()=>{
             }
             await signInWithEmailAndPassword(getAuth(),email,password);
             console.log("error checkup on login page js")
-            navigate("/");
+            navigate("/products");
             
         } catch (error) {
             // console.log("Error")

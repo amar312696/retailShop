@@ -1,5 +1,7 @@
+import { useState } from "react";
 import "./LoginpageR.css"
 import { useNavigate } from "react-router-dom";
+import { getAuth, signInWithEmailAndPassword} from "firebase/auth";
 
 const LoginpageR=()=>{
     const navigate=useNavigate();
@@ -8,6 +10,27 @@ const LoginpageR=()=>{
     }
     const homeClick=()=>{
         navigate("/");
+    }
+
+    const [email,setEmail]=useState("");
+    const [password,setPassword]=useState("");
+    const [error,setError]=useState("");
+
+    const login= async (e)=>{
+        e.preventDefault();
+        try {
+            if(!email||!password){
+                setError("all fields are mandatory");
+                return;
+            }
+            await signInWithEmailAndPassword(getAuth(),email,password);
+            console.log("error checkup on login page js")
+            navigate("/");
+            
+        } catch (error) {
+            // console.log("Error")
+            setError(error.message);
+        }
     }
     return(
         <div className="logpage">
@@ -28,16 +51,18 @@ const LoginpageR=()=>{
                     
                         <form className="loginform">
                             <label>Email Address:<br/>
-                                <input type="email" />
+                                <input type="email" value={email} onChange={(e)=>{setEmail(e.target.value)}} />
                             </label><br/>
                             <label>Password:<br/>
-                                <input type="Password" />
+                                <input type="Password" value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
                             </label>
                             <br/>
-                            <button type="submit" className="loginsubmission">
+                            <button type="submit" className="loginsubmission" onClick={login}>
                                 Login
                             </button>
-                            
+                            <div className="error">
+                                *{error}
+                            </div>
                         </form>
                         <div className="furtherinfo">
                             <p>Not a member yet? Become a member <span className="signUpOnLogin" onClick={signUpClick}>Sign Up</span></p>
