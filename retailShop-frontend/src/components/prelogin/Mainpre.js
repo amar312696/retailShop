@@ -11,10 +11,10 @@ const Mainpre =()=>{
         navigate("/signup")
     }
     const signupR=()=>{
-        navigate("/signupr")
+        window.location.href = `http://localhost:3001/signupr`;
     }
     const loginClickR=()=>{
-        navigate("/loginr");
+        window.location.href = `http://localhost:3001/loginr`;
     }
 
     return(
