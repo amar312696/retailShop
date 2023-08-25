@@ -1,20 +1,19 @@
 import "./Product.css"
 import { useNavigate } from "react-router-dom";
 import { useState,useEffect } from "react";
+import { useDispatch } from "react-redux";
+import {setData,addData}  from "../store/slices/userSlices";
 const Product=(props)=>{
-    const {content, index,setMainData,mainData}=props;
-    const [count,setCount]=useState(0);
+    const dispatch=useDispatch();
+    const {content, countInitial}=props;
+    console.log(countInitial)
+    const [count,setCount]=useState(countInitial);
     const handleIncrementCount = () => {
         setCount((prevCount) => prevCount + 1);
-      };
-
-    useEffect(
-        ()=>{
-            // console.log(content.id);
-            setMainData({...mainData,[content.id]:count})
-        },[count]
-    )
-   
+    };
+    const addToCart=(content)=>{
+        dispatch(addData(content));
+    }
     
     return(
         <div className="allaboutproduct">
@@ -35,7 +34,7 @@ const Product=(props)=>{
                         <span className="rate">{content.price}</span>
                     </div>
                     <div className="cartcontainer">
-                        <div className="cartsvg" onClick={handleIncrementCount}>
+                        <div className="cartsvg" onClick={ () => { handleIncrementCount();addToCart(content)}} >
                             <div className="noOfproducts" style={{display:count?"":"none"}}>{count}</div>
                             <span className="carts">
                                 <svg width="25" height="28" viewBox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -8,6 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 import { Provider } from 'react-redux';
 import store from './components/store/slices';
 
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {ProviderId, getAuth} from "firebase/auth";
@@ -31,7 +32,7 @@ const app = initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
+  <Provider store={store} >
     <BrowserRouter>
      <App />
     </BrowserRouter>
