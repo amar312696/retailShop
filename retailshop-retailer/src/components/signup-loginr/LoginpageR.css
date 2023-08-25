@@ -1,0 +1,119 @@
+
+
+.logpage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+  }
+ 
+  
+  .logincard {
+    width: 700px; 
+    height: 500px;
+    background-image: linear-gradient(
+      to right,
+      #FF8C00 0%,
+      #FF8C00 50%,
+      #FFF3E7 50%,
+      #FFF3E7 100%
+    );
+    border: solid 2px #FF8C00;
+    border-radius: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    display: flex;
+    
+  }
+  
+  .leftside {
+    flex: 1; 
+  }
+  
+  .rightside {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .retailShop {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  h1.retailShop{
+    font-size: xx-large;
+  }
+
+  .loginL {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #FF8C00;
+    margin-bottom: 60px;
+}
+
+form.loginform {
+    padding-left: 42px;
+    line-height: 2;
+    font-size: larger;
+    border: none;
+}
+input[type="email"] {
+    border: none;
+    border-radius: 0.7em;
+    height: 1.7em;
+    width: 18em;
+}
+input[type="Password"] {
+    border: none;
+    border-radius: 0.7em;
+    height: 1.7em;
+    width: 18em;
+}
+button.loginsubmission {
+    padding: 4px 16px;
+    border: solid 2px black;
+    font-size: medium;
+    font-weight: 700;
+    background: none;
+    border-radius: 1em;
+    color: #0000ff;
+}
+.furtherinfo {
+    text-align: center;
+    padding-left: 34px;
+}
+span.signUpOnLogin {
+    font-weight: 700;
+    text-decoration: underline;
+}
+h1.retailShop.insideleft{
+    margin-top: 50%;
+}
+
+.error {
+  font-size: small;
+  color: red;
+  font-style: italic;
+}
+
+.Lr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asRetailer {
+    margin-bottom: 23px;
+    color: blue;
+}
+.marginadjust{
+    margin-bottom: 2px;
+}
